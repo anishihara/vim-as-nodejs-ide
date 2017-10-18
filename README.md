@@ -19,6 +19,7 @@ Vim plugins included:
 * [vim-stylus](https://github.com/wavded/vim-stylus.git)
 * [vim-jade](https://github.com/digitaltoad/vim-jade.git)
 * [vim-coffee-script](https://github.com/kchmck/vim-coffee-script.git)
+* [tern-for-vim](https://github.com/ternjs/tern_for_vim.git)
 
 
 
@@ -56,8 +57,10 @@ $ make
 ```
 #### Build YouCompleteMe
 ```
+sudo apt install build-essential cmake python-dev python3-dev -y
 cd ~/.vim/bundle/YouCompleteMe
-./install.sh
+git checkout https://github.com/Valloric/YouCompleteMe.git master
+./install.py --tern-completer
 ```
 #### Usage jsbeautify
 ```
