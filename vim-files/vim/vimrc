@@ -144,6 +144,9 @@ nnoremap <leader>ev <C-w><C-v><C-l>:e $MYVIMRC<cr>
 " jj For Qicker Escaping between normal and editing mode.
 "inoremap jj <ESC>
 
+" maps F7 and F8 to previous and next tab on vim 7+
+nnoremap <silent> <F7> gT
+nnoremap <silent> <F8> gt
 
 " Working with split screen nicely
 " Resize Split When the window is resized"
