@@ -40,3 +40,9 @@
 [submodule "vim-files/vim/bundle/vim-stylus"]
 	path = vim-files/vim/bundle/vim-stylus
 	url = https://github.com/wavded/vim-stylus.git
+[submodule "vim-files/vim/bundle/tern_for_vim"]
+	path = vim-files/vim/bundle/tern_for_vim
+	url = https://github.com/ternjs/tern_for_vim.git
+[submodule "vim-files/vim/vim-files/vim/bundle/badwolf"]
+	path = vim-files/vim/vim-files/vim/bundle/badwolf
+	url = https://github.com/sjl/badwolf.git
